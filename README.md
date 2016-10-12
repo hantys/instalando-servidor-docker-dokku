@@ -394,7 +394,6 @@ http {
   add_header X-XSS-Protection "1; mode=block";
   add_header Strict-Transport-Security max-age=31536000;
 
-  server_tokens off;
   client_header_timeout 60;
   client_body_timeout 60;
   ignore_invalid_headers on;
